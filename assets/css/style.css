@@ -5,17 +5,17 @@ body {
     color: grey;
     background-image: url("../images/concrete_seamless.png");
     background-repeat: repeat;
-    /* background-size: 100% 100%; */
     position: relative;
     height: 100%;
 }
+
 
 header {
     padding: 0px;
     margin-top: 0px;
     border-bottom: 1px solid grey;
-    /* box-shadow: 0 5px 10px rgba(0,0,0,0.1), 0 6px 6px rgba(0,0,0,0.2); */
     background-color: #fff;
+    width: 100%;
 }
 
 section {
@@ -25,6 +25,7 @@ section {
     margin-bottom: 40px;
     padding: 20px 30px;
     background-color: #fff;
+    line-height: 2em;
 }
 
 h2 {
@@ -32,7 +33,8 @@ h2 {
 }
 
 hr {
-    margin: 0px 10px 30px 10px;
+    margin: 0px 15px 30px 15px;
+    border-top: 1px solid gray;
 }
 
 .container {
@@ -148,29 +150,45 @@ footer {
 /* Portfoilo page boxes */
 .cards {
     float: left;
-    width: 200px;
-    height: 200px;
-    margin: 10px;
-    border: 1px solid black;
-    /* background: url("http://via.placeholder.com/200x200"); */
+    width: 320px;
+    height: 240px;
+    margin: 20px;
+    background-size:cover;
 }
 
 .ptitle {
-    height: 50px;
+    height: 70px;
     background-color: teal;
     color: white;
     text-align: center;
-    padding: auto;
-    margin-top: 70%;
-    margin-top: 70%;
+    padding-top: 2px;
+    margin-top: 48%;
     box-sizing: border-box;
 }
 
-#num3, #num5 {
-    clear: left;
+#num1 {
+    background-image:  url('../images/technics-q-c-640-480-1.jpg');
 }
 
-.portfolio div:hover{
+#num2 {
+    background-image:  url('../images/technics-q-c-640-480-2.jpg');
+}
+
+#num3 {
+    clear: left;
+    background-image:  url('../images/technics-q-c-640-480-5.jpg');
+}
+
+#num4 {
+    background-image:  url('../images/technics-q-c-640-480-7.jpg');
+}
+
+#num5 {
+    clear: left;
+    background-image:  url('../images/technics-q-c-640-480-9.jpg');
+}
+
+.portfolio .cards:hover {
     border: 1px solid teal;
     box-shadow: 0 5px 10px rgba(0,0,0,0.1), 0 6px 6px rgba(0,0,0,0.2);
 }
