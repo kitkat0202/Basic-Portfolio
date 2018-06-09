@@ -1,0 +1,176 @@
+body {
+    margin: 0px;
+    padding: 0px;
+    font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+    color: grey;
+    background-image: url("../images/concrete_seamless.png");
+    background-repeat: repeat;
+    /* background-size: 100% 100%; */
+    position: relative;
+    height: 100%;
+}
+
+header {
+    padding: 0px;
+    margin-top: 0px;
+    border-bottom: 1px solid grey;
+    /* box-shadow: 0 5px 10px rgba(0,0,0,0.1), 0 6px 6px rgba(0,0,0,0.2); */
+    background-color: #fff;
+}
+
+section {
+    border: 1px solid grey;
+    border-radius: 5px 0px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 20px 30px;
+    background-color: #fff;
+}
+
+h2 {
+    color: teal;
+}
+
+hr {
+    margin: 0px 10px 30px 10px;
+}
+
+.container {
+    width: 960px;
+    margin: 0px auto;
+}
+
+.top-height{
+    height: 79px;
+}
+
+.top-name {
+    width: 350px;
+    background-color: teal;
+    color: white;
+    float: left;
+    margin: 0px;
+    text-align: center;
+    padding: 20px;
+}
+
+.menu {
+    width: 300px;
+    list-style-type: none;
+    float: right;
+    margin: 0px;
+    border: none;
+}
+
+.menu li {
+    padding-left: 10px;
+    padding-top: 31px;
+    padding-bottom: 31px;
+    float: right;
+}
+
+menu a:link {
+    text-decoration: none;
+    color: grey;
+}
+
+menu a:visited, a:active {
+    text-decoration: none;
+    color: #CF5D5D;
+}
+
+menu a:hover {
+    text-decoration: underline;
+}
+
+.spacer {
+    clear: both;
+    margin: 20px;
+}
+
+.outside {
+    margin: 100px;
+}
+
+footer {
+    position: absolute;
+    width: 100%;
+    height: 70px;
+    background-color: #737373;
+    border-top: 7px solid teal;
+    bottom: 0px;
+    color: white;
+    text-align: center;
+    padding-top: 25px;
+}
+
+.copyright {
+    bottom: 0px;
+    font-weight: normal;
+}
+
+/* Index page picture */
+#me-pic {
+    width: 200px;
+    height: 200px;
+    margin-right: 10px;
+    float: left;
+}
+
+/* Contact page input and text area */
+.box-width {
+    width: 100%;
+    border: 1px solid grey;
+    padding: 5px;
+}
+
+.box-width:hover {
+    border: 1px solid teal;
+    box-shadow: 1px 1px #B0E0E6;
+    padding: 5px;
+}
+
+.btn {
+    background-color: teal;
+    color: white;
+    padding: 8px 25px;
+    border: 1px solid #28A8A8;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: #006C6C;
+    color: white;
+}
+
+
+/* Portfoilo page boxes */
+.cards {
+    float: left;
+    width: 200px;
+    height: 200px;
+    margin: 10px;
+    border: 1px solid black;
+    /* background: url("http://via.placeholder.com/200x200"); */
+}
+
+.ptitle {
+    height: 50px;
+    background-color: teal;
+    color: white;
+    text-align: center;
+    padding: auto;
+    margin-top: 70%;
+    margin-top: 70%;
+    box-sizing: border-box;
+}
+
+#num3, #num5 {
+    clear: left;
+}
+
+.portfolio div:hover{
+    border: 1px solid teal;
+    box-shadow: 0 5px 10px rgba(0,0,0,0.1), 0 6px 6px rgba(0,0,0,0.2);
+}

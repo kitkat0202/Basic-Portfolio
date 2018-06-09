@@ -1,0 +1,144 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>My Bio</title>
+    <style>
+    	body {
+        	margin: 0px;
+            padding: 0px;
+            font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+            color: grey;
+        }
+    	header {
+			padding: 0px;
+            margin-top: 0px;
+          	border-bottom: 1px solid grey;
+            box-shadow: 0px 2px #DADADA;
+        }
+        .container {
+        	width: 960px;
+            margin: 0px auto;
+        }
+        .top-height{
+        	height: 79px;
+        }
+        .top-name {
+        	width: 250px;
+            background-color: teal;
+            color: white;
+            float: left;
+            margin: 0px;
+            text-align: center;
+            padding: 15px;
+        }
+        .menu {
+        	width: 300px;
+            list-style-type: none;
+            float: right;
+            margin: 0px;
+            border: none;
+        }
+        .menu > li {
+        	padding-left: 10px;
+            padding-top: 31px;
+            padding-bottom: 31px;
+            float: right;
+        }
+        a:link {
+    		text-decoration: none;
+            color: grey;
+		}
+        a:visited {
+    		text-decoration: none;
+            color: black;
+        }
+        a:hover {
+            text-decoration: underline;
+        }
+        section {
+        	border: 1px solid grey;
+            border-radius: 5px 0px;
+            margin-top: 40px;
+            margin-bottom: 40px;
+            padding: 20px 30px;
+        }
+        h2 {
+        	color: teal;
+        }
+        hr {
+        	margin: 0px 10px 30px 10px;
+        }
+        img {
+            margin-right: 10px;
+			float: left;
+        }
+        .footer {
+         	height: 70px;
+         	background-color: #737373;
+            border-top: 7px solid teal;
+   			bottom: 0px;
+			color: white;
+   			text-align: center;
+            padding-bottom: 0px;
+            margin: 0px;
+         }
+         .copyright {
+         	bottom: 0px;
+         }
+         .box-width {
+         	width: 100%;
+         }
+         input[type=submit] {
+            background-color: teal;
+            color: white;
+            padding: 8px 25px;
+            border: 1px solid #28A8A8;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+
+        input[type=submit]:hover {
+            background-color: #006C6C;
+        }
+    </style>
+  </head>
+<body>
+
+<header>
+	<div class="container top-height">
+    	<h1 class="top-name">Katherine He</h1>
+          <ul class="menu">
+			<li><a href="#">Contact</a></li>
+            <li>|</li>
+            <li><a href="#">Portfolio</a></li>
+            <li>|</li>
+            <li><a href="#">About</a></li>
+          </ul>
+    </div>
+</header>
+<div class="container">
+	<section class="info">
+      <h2>Contact</h2>
+      <hr>
+      
+      <form>
+        <label for="name">Name</label><br>
+        <input type="text" name="name" placeholder="John Smith" class="box-width" required><br>
+        
+        <label for="email">Email</label><br>
+        <input type="text" name="email" placeholder="example@gmail.com" class="box-width" required><br>
+        
+        <label for="message">Message</label><br>
+        <textarea rows="10" name="message" placeholder="Add a short message here" class="box-width" style="overflow:auto" required></textarea>
+        <br><br>
+        
+        <input type="submit" value="Submit">
+      </form> 
+    </section>
+</div>
+	
+<div class="footer">
+	<h6 class="copyright">Copyright&copy;</h6>
+</div>
+</body>
+</html>
