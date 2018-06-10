@@ -1,20 +1,19 @@
-###Basic-Portfolio
+### Basic-Portfolio
 
-_Building a Wireframe / That Portfolio Though_
+# _Building a Wireframe / That Portfolio Though_
 
 The first assignment of Columbia Coding Bootcamp. 
 
 
 
-###Finished Product: 
-![Finished product pic](images/BP-index.jpg "Finished product pic")
-![Finished product pic](images/BP-contact.jpg "Finished product pic")
-![Finished product pic](images/BP-portfolio.jpg "Finished product pic")
+# Finished Product: 
+![Finished product pic](assets/images/BP-index.png "Finished product pic")
+![Finished product pic](assets/images/BP-contact.png "Finished product pic")
+![Finished product pic](assets/images/BP-portfolio.png "Finished product pic")
 
 
 
-
-###Criteria:
+### Criteria:
 1. Create a new repository in GitHub called `Basic-Portfolio`.
 
 2. Clone this repository to your computer using the process we went over in class.
