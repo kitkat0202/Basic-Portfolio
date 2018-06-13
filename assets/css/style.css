@@ -6,35 +6,18 @@ body {
     background-image: url("../images/concrete_seamless.png");
     background-repeat: repeat;
     position: relative;
-    height: 100%;
+    height: 100vh;
 }
 
 
-header {
+nav {
     padding: 0px;
     margin-top: 0px;
     border-bottom: 1px solid #cccccc;
     background-color: #fff;
     width: 100%;
-}
-
-section {
-    border: 1px solid #dddddd;
-    border-radius: 5px 0px;
-    margin-top: 40px;
-    margin-bottom: 40px;
-    padding: 20px 30px;
-    background-color: #fff;
-    line-height: 2em;
-}
-
-h2 {
-    color: #4aaaa5;
-}
-
-hr {
-    margin: 0px 15px 30px 15px;
-    border-top: 1px solid #dddddd;
+    min-width: 960px;
+    height: 80px;
 }
 
 .container {
@@ -42,23 +25,30 @@ hr {
     margin: 0px auto;
 }
 
-.top-height{
-    height: 79px;
-}
-
 .top-name {
-    width: 350px;
-    background-color: #4aaaa5;
+    position: relative;
+    display: inline-block;
     color: #fff;
     font-family: 'Georgia', Times, Times New Roman, serif;
     float: left;
     margin: 0px;
     text-align: center;
-    padding: 20px;
+    font-size: 50px;
+    z-index: 1;
+}
+
+.top-name::before {
+    content: '';
+    position: absolute;
+    left: -20px;
+    display: block;
+    width: 120%;
+    height: 80px;
+    background-color: #4aaaa5;
+    z-index: -1;
 }
 
 .menu {
-    width: 300px;
     list-style-type: none;
     float: right;
     margin: 0px;
@@ -86,13 +76,36 @@ menu a:hover {
     text-decoration: underline;
 }
 
+
+
+section {
+    border: 1px solid #dddddd;
+    border-radius: 5px 0px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    padding: 20px 30px 50px 30px;
+    background-color: #fff;
+    line-height: 2em;
+}
+
+h2 {
+    color: #4aaaa5;
+}
+
+hr {
+    margin: 0px 15px 30px 15px;
+    border-top: 1px solid #dddddd;
+}
+
 .spacer {
+    content: ' ';
+    display: block;
     clear: both;
     margin: 20px;
 }
 
 .outside {
-    margin: 100px;
+    bottom: -300px;
 }
 
 footer {
@@ -105,7 +118,7 @@ footer {
     color: #fff;
     text-align: center;
     padding-top: 25px;
-    margin-bottom: -70px;
+    margin-bottom: -10px;
 }
 
 .copyright {
@@ -156,7 +169,6 @@ footer {
     width: 320px;
     height: 240px;
     margin: 20px;
-    background-size:cover;
 }
 
 .ptitle {
@@ -187,9 +199,11 @@ footer {
 }
 
 #num5 {
-    clear: left;
+    /* clear: left; */
     background-image:  url('../images/technics-q-c-640-480-9.jpg');
 }
+
+
 
 .portfolio .cards:hover {
     border: 1px solid #4aaaa5;
