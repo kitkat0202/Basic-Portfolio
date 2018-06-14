@@ -7,12 +7,17 @@ body {
 }
 
 .container {
+    margin: 0 auto;
     width: 960px;
 }
 
 h1, h2, h4 {
     font-weight: bold;
     font-family: 'Georgia', Times, Times New Roman, serif;
+}
+
+h2 {
+    font-size: 24px;
 }
 
 h2, h4 {
